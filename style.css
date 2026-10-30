@@ -1,0 +1,128 @@
+#welcome {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:peachpuff;
+    background-color: rgb(167, 135, 93);
+    align-items: center;
+}
+#hobbies {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:deepskyblue;
+    background-color: rgb(45, 103, 156);
+    align-items: center;
+    position:relative;
+}
+
+#studies {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:hotpink;
+    background-color: rgb(119, 14, 124);
+    align-items: center;
+}
+
+#links {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:goldenrod;
+    background-color: rgb(133, 69, 4);
+    align-items: center;
+}
+
+#codingprojects {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:firebrick;
+    background-color: rgb(88, 6, 6);
+}
+
+#shock {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:100% - 60px;
+    border-radius:16px;
+    border-color: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color:black;
+    padding-left: 50px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(161, 209, 255);
+    align-items: center;
+}
+
+#hobbies #left {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#hobbies #right {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#hobbies p {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+#shock #car {
+    width:500px;
+    height:500px;
+    border-radius:16px;
+}
